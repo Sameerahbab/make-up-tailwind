@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make up</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/df9783ea42.js" crossorigin="anonymous"></script>
+</head>
+<body class="">
+    <header class="fixed top-0 left-0 w-full z-10 pt-6 pb-6 bg-neutral-200 shadow-md shadow-primary-color" id="header">
+        <nav class="container relative flex items-center justify-between md:flex-row">
+            <div class="text-3xl font-bold lg:text-4xl">
+
+                <div>Lo<span class="text-rose-500">Go</span></div>
+            </div>
+
+            <!-- mobile screen -->
+            <div class="hidden absolute top-0 left-0 w-full border-b border-primary-color md:border-none md:block md:static md:w-auto md:ml-auto">
+                <ul class="flex flex-col items-center text-center gap-5 md:flex-row">
+                    <li>
+                        <a href="#home" class="text-xl capitalize text-secondary-color-light font-bold hover:text-primary-color hover:border-b hover:border-primary-color ease-in duration-150">home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="text-xl capitalize text-secondary-color-light font-bold hover:text-primary-color hover:border-b hover:border-primary-color ease-in duration-150">about</a>
+                    </li>
+
+                    <li>
+                        <a href="#products" class="text-xl capitalize text-secondary-color-light font-bold hover:text-primary-color hover:border-b hover:border-primary-color ease-in duration-150">products</a>
+                    </li>
+
+                    <li>
+                        <a href="#reviews" class="text-xl capitalize text-secondary-color-light font-bold hover:text-primary-color hover:border-b hover:border-primary-color ease-in duration-150">Reviews</a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery" class="text-xl capitalize text-secondary-color-light font-bold hover:text-primary-color hover:border-b hover:border-primary-color ease-in duration-150">gallery</a>
+                    </li>
+
+                    <li>
+                        <button class="btn1">Visit Us</button>
+                    </li>
+                </ul>
+            </div>
+                
+            <div class="pl-4 ml-auto">
+                <i class="fa-solid fa-cart-shopping pr-4 text-2xl capitalize text-third font-bold hover:text-primary-color ease-in duration-150"></i>
+                <i class="fa-solid fa-bars text-2xl capitalize text-third font-bold hover:text-primary-color ease-in duration-150"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+        <!-- Hero Section -->
+        <section class="mt-32 h-[70svh] bottom-0" id="home">
+            <div class="container grid md:grid-cols-3 gap-10">
+
+                <div class=" space-y-10 md:space-y-20 flex flex-col items-center justify-center">
+                    <h1 class="text-3xl md:text-8xl capitalize text-third">Bring <span class="text-primary-color font-sans">brand</span> in life</h1>
+                    <p class="text-third text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsam accusantium autem nihil, repellendus veniam facere? Neque cumque recusandae ipsa.</p>
+                    <button class="btn1">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shop now
+                    </button>
+
+                    <div class="flex flex-row justify-between items-center gap-10">
+                        <i class="fa-brands fa-facebook ml-auto text-3xl text-primary-color hover:text-third duration-200 transition-transform transform hover:scale-125"></i>
+
+                        <i class="fa-brands fa-instagram  ml-auto text-3xl text-primary-color hover:text-third duration-200 transition-transform transform hover:scale-125"></i>
+
+                        <i class="fa-brands fa-twitter  ml-auto text-3xl text-primary-color hover:text-third duration-200 transition-transform transform hover:scale-125"></i>
+
+                        <i class="fa-solid fa-message  ml-auto text-3xl text-primary-color hover:text-third duration-200 transition-transform transform hover:scale-125"></i>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/heroimg.jpg" alt="" class="w-auto h-full pt-10">
+                </div>
+
+                <div class="space-y-10 flex flex-col items-center justify-center ">
+
+                    <div class="p-4 flex flex-col rounded-lg text-left space-y-4 hover:rounded-lg hover:bg-third hover:text-white duration-200 hover:shadow-xl hover:shadow-primary-color">
+
+                        <h1 class="text-2xl font-bold text-primary-color ">Lorem</h1>
+
+                        <p class="text-lg text-primary-color ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eum explicabo aperiam fugit voluptas nisi ad placeat sint illum numquam.</p>
+                    </div>
+                    
+                    <div class="p-4 flex flex-col rounded-lg text-left space-y-4 hover:rounded-lg hover:bg-third hover:text-white duration-200 hover:shadow-xl hover:shadow-primary-color">
+
+                        <h1 class="text-2xl font-bold text-primary-color">Lorem</h1>
+
+                        <p class="text-lg text-primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eum explicabo aperiam fugit voluptas nisi ad placeat sint illum numquam.</p>
+                    </div>
+
+                    <div>
+                        <img src="images/red cosmetic.jpg" alt="" class="h-auto w-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="mt-[80rem] md:mt-10">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">About us</h1>
+            <div class="container flex flex-col-reverse items-center justify-between gap-10 md:flex-row pt-8 pb-8">
+
+                <div class="space-y-8 md:w-1/2">
+                    <div class="p-2 border-2 rounded-xl border-primary-color text-primary-color hover:bg-primary-color hover:text-white duration-200 ease-in flex flex-row gap-5 items-center md:flex-col">
+                        <i class="fa-solid fa-list bg-third p-4 rounded-full text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold">Our products</h2>
+                        <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odit sequi perferendis quisquam aspernatur ab! Porro ut voluptatibus minus nihil!</p>
+                    </div>
+
+
+                    <div class="p-2 border-2 rounded-xl border-primary-color text-primary-color hover:bg-primary-color hover:text-white duration-200 ease-in flex gap-5 items-center  md:flex-col">
+                        <i class="fa-solid fa-list bg-third p-4 rounded-full text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold">Our products</h2>
+                        <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odit sequi perferendis quisquam aspernatur ab! Porro ut voluptatibus minus nihil!</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/kit-3.jpg" alt="" class="w-auto  h-auto rounded-full ">
+                </div>
+            </div>
+        </section>
+
+        <!-- categories -->
+
+        <section class="mt-4 mb-4" id="products">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Our products</h1>
+            <div class="pt-8 pb-8 container grid md:grid-cols-2 gap-10">
+
+
+                <div class="bg-image bg-center rounded-xl bg-cover  h-[40svh] transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color text-white hover:text-primary-color flex gap-5 flex-col justify-center items-center" style="background-image: url('images/lipsticks.jpg');">
+                    <h1 class="text-3xl md:text-5xl font-bold  capitalize">lips</h1>
+                    <a href="#lips" class="btn1">view</a>
+                </div>
+
+
+                <div class="bg-image bg-center rounded-xl bg-cover h-[40svh] transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color text-white hover:text-primary-color flex gap-5 flex-col justify-center items-center" style="background-image: url('images/eyeliner2.jpg');">
+                    <h1 class="text-3xl md:text-5xl font-bold  capitalize">eyes</h1>
+                    <a href="#eyes" class="btn1">view</a>
+                </div>
+
+
+                <div class="bg-image bg-center rounded-xl bg-cover h-[40svh] transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color text-white hover:text-primary-color flex gap-5 flex-col justify-center items-center" style="background-image: url('images/mascara.jpg');">
+                    <h1 class="text-3xl md:text-5xl font-bold capitalize">eye-shadows</h1>
+                    <a href="#eye-shadow" class="btn1">view</a>
+                </div>
+
+
+                <div class="bg-image bg-center rounded-xl bg-cover h-[40svh] transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color text-white hover:text-primary-color flex gap-5 flex-col justify-center items-center" style="background-image: url('images/foundation.jpg');">
+                    <h1 class="text-3xl md:text-5xl font-bold capitalize">Face</h1>
+                    <a href="#face" class="btn1">view</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="mt-4 mb-4">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Best sellers</h1>
+            <div  class="container grid md:grid-cols-3 gap-5 pt-6">
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/kit1.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">make-up kit</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/kit-2.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">make-up kit</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/aboutimg2.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">make-up kit</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="lips" class="mt-4 mb-4">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Lipsticks</h1>
+            <div  class="container grid md:grid-cols-3 gap-5 pt-6">
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/lip-1.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">lipsticks</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/lips2.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">lipsticks</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/lips3.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">lipsticks</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eyes" class="mt-4 mb-4">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Eyeliners</h1>
+            <div  class="container grid md:grid-cols-3 gap-5 pt-6">
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/eyeliner-set-1.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">eyeliner-set-1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/eyeliner-set-2.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">eyeliner-set-2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/eyeliner-set-3.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">eyeliner-set-3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eye-shadow" class="mt-4 mb-4">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Eye-Shadows</h1>
+            <div  class="container grid md:grid-cols-3 gap-5 pt-6">
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/eye-shadow-1.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">Eye-shadow set-1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/eye-shadow-2.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">Eye-shadow set-2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/eye-shadow-3.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">Eye-shadow set-3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="face" class="mt-4 mb-4">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Foundations</h1>
+            <div  class="container grid md:grid-cols-3 gap-5 pt-6">
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/foundation-1.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">Foundations-1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/foundation-2.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">Foundations-2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="pb-4 flex flex-col items-center transition-transform duration-150 transform hover:scale-105">
+                    <div>
+                        <img src="images/foundation-3.jpg" alt="" class="h-auto w-auto">
+                    </div>
+
+                    <div class="text-center space-y-2">
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-solid fa-star text-primary-color text-3xl"></i>
+                        <i class="fa-regular fa-star text-primary-color text-3xl"></i>
+                        <h2 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">Foundations-3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium possimus reiciendis ducimus eveniet odit vel?</p>
+                        <div class="flex items-center justify-around">
+                            <h3 class="text-2xl md:text-3xl font-bold text-primary-color capitalize">35$</h3>
+                            <a href="#" class="btn1">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-4 mb-4" id="reviews">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Reviews</h1>
+           <div class="container grid md:grid-cols-3 gap-10">
+                <div class="mt-4 flex flex-col items-start bg-third text-primary-color p-4 rounded-lg space-y-2 hover:bg-primary-color hover:text-white transition-transform duration-200 transform hover:scale-105">
+                    <div class="flex items-center gap-2">
+                        <img src="images/user-2.avif" alt="" class="h-32 w-32 rounded-full">
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-regular fa-star text-yellow-400 text-3xl"></i>
+                    </div>
+
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold">Very Reliable</h2>
+                        <p class="text-md md:text-lg pt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic dolores veniam mollitia eaque ut sit fuga, porro obcaecati quis vel animi, impedit tenetur nihil fugit asperiores ex modi dolor? Fugiat?</p>
+                    </div>
+                </div>
+
+                <div class="mt-4 flex flex-col items-start bg-third text-primary-color p-4 rounded-lg space-y-2 hover:bg-primary-color hover:text-white transition-transform duration-200 transform hover:scale-105">
+                    <div class="flex items-center gap-2">
+                        <img src="images/user1.avif" alt="" class="h-32 w-32 rounded-full">
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-regular fa-star text-yellow-400 text-3xl"></i>
+                    </div>
+
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold">Very Reliable</h2>
+                        <p class="text-md md:text-lg pt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic dolores veniam mollitia eaque ut sit fuga, porro obcaecati quis vel animi, impedit tenetur nihil fugit asperiores ex modi dolor? Fugiat?</p>
+                    </div>
+                </div>
+
+                <div class="mt-4 flex flex-col items-start bg-third text-primary-color p-4 rounded-lg space-y-2 hover:bg-primary-color hover:text-white transition-transform duration-200 transform hover:scale-105">
+                    <div class="flex items-center gap-2">
+                        <img src="images/user-3.jpg" alt="" class="h-32 w-32 rounded-full">
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-solid fa-star text-yellow-400 text-3xl"></i>
+                        <i class="fa-regular fa-star text-yellow-400 text-3xl"></i>
+                    </div>
+
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold">Very Reliable</h2>
+                        <p class="text-md md:text-lg pt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic dolores veniam mollitia eaque ut sit fuga, porro obcaecati quis vel animi, impedit tenetur nihil fugit asperiores ex modi dolor? Fugiat?</p>
+                    </div>
+                </div>
+           </div>           
+        </section>
+
+
+        <section id="gallery" class="mt-4 mb-4">
+            <h1 class="text-4xl font-bold text-center text-primary-color md:text-5xl">Gallery</h1>
+            <div class="container mt-4 pt-4 grid md:grid-cols-2 gap-10">
+
+
+                <div class="relative transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color">
+                    <img src="images/model-5.jpg" alt=""  class="w-auto h-auto" width="700">
+                    <div class="absolute inset-0 flex flex-col text-center place-items-center justify-center opacity-0 hover:opacity-100 duration-200 bg-black bg-opacity-50 text-white">
+                        <h2 class="text-2xl text-primary-color font-bold capitalize">lorem</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, distinctio.</p>
+                    </div>
+                </div>
+
+
+                <div class="relative transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color">
+                    <img src="images/model-6.jpg" alt=""  class="w-auto h-full" width="700">
+                    <div class="absolute inset-0 flex flex-col text-center place-items-center justify-center opacity-0 hover:opacity-100 duration-200 bg-black bg-opacity-50 text-white ">
+                        <h2 class="text-2xl text-primary-color font-bold capitalize">lorem</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, distinctio.</p>
+                    </div>
+                </div>
+
+
+                <div class="relative transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color">
+                    <img src="images/model-7.jpg" alt=""  class="w-auto h-auto" width="700">
+                    <div class="absolute inset-0 flex flex-col text-center place-items-center justify-center opacity-0 hover:opacity-100 duration-200 bg-black bg-opacity-50 text-white ">
+                        <h2 class="text-2xl text-primary-color font-bold capitalize">lorem</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, distinctio.</p>
+                    </div>
+                </div>
+
+
+                <div class="relative transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color">
+                    <img src="images/model-8.jpg" alt=""  class="w-auto h-auto" width="700">
+                    <div class="absolute inset-0 flex flex-col text-center place-items-center justify-center opacity-0 hover:opacity-100 duration-200 bg-black bg-opacity-50 text-white ">
+                        <h2 class="text-2xl text-primary-color font-bold capitalize">lorem</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, distinctio.</p>
+                    </div>
+                </div>
+
+
+                <div class="relative transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color">
+                    <img src="images/model-10.jpg" alt=""  class="w-auto h-full" width="700">
+                    <div class="absolute inset-0 flex flex-col text-center place-items-center justify-center opacity-0 hover:opacity-100 duration-200 bg-black bg-opacity-50 text-white ">
+                        <h2 class="text-2xl text-primary-color font-bold capitalize">lorem</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, distinctio.</p>
+                    </div>
+                </div>
+
+
+                <div class="relative transition-transform duration-200 transform hover:scale-105 hover:ring-4 hover:ring-primary-color">
+                    <img src="images/model-3.jpg" alt=""  class="w-auto h-full" width="700">
+                    <div class="absolute inset-0 flex flex-col text-center place-items-center justify-center opacity-0 hover:opacity-100 duration-200 bg-black bg-opacity-50 text-white ">
+                        <h2 class="text-2xl text-primary-color font-bold capitalize">lorem</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, distinctio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <section class="footer bg-third text-white pt-8">
+          <div class="container">
+            <ul class="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4">
+              <li>
+                <div class="space-y-3">
+                  <a href="" class="text-4xl capitalize">
+                    Make<span class="text-primary-color">-up</span>
+                  </a>
+  
+                  <p class="text-md">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                  </p>
+                </div>
+              </li>
+  
+              <li>
+                <div class="flex flex-col gap-3">
+                  <h3 class="text-xl capitalize text-primary-color">SUPPORT</h3>
+                  <a href="" class="text-md hover:text-primary-color">FAQ's</a>
+                  <a href="" class="text-md hover:text-primary-color">Privacy Policy</a>
+                  <a href="" class="text-md hover:text-primary-color">Term & Condition</a>
+                  <a href="" class="text-md hover:text-primary-color">Contact</a>
+                </div>
+              </li>
+  
+              <li class="space-y-8">
+                <div class="space-y-2">
+                  <h3 class="text-xl capitalize text-primary-color">phone</h3>
+  
+                  <p class="flex items-center gap-2 text-xs">
+                    <i class="fa-solid fa-phone text-lg text-primary-color"></i>
+                    +1 000 000 0000
+                  </p>
+                </div>
+  
+                <div class="space-y-2">
+                  <h3 class="text-xl capitalize text-primary-color">email</h3>
+  
+                  <p class="flex items-center gap-2 text-xs">
+                    <i class="fa-solid fa-envelope text-lg text-primary-color"></i>
+                    makeup.info@email.com
+                  </p>
+                </div>
+              </li>
+  
+              <li class="space-y-8">
+                <div class="space-y-2">
+                  <h3 class="text-xl capitalize text-primary-color">address</h3>
+  
+                  <p class="flex items-center gap-2 text-xs">
+                    <i class="fa-solid fa-location-dot text-lg text-primary-color"></i>
+                    Address goes here
+                  </p>
+                </div>
+  
+                <div class="space-y-2">
+                  <h3 class="text-xl capitalize text-primary-color">follow us</h3>
+  
+                  <div class="space-x-3">
+                    <i class="fa-brands fa-facebook-f text-lg cursor-pointer text-primary-color hover:-translate-y-1 ease-in duration-200"></i>
+                    <i class="fa-brands fa-twitter text-lg cursor-pointer text-primary-color hover:-translate-y-1 ease-in duration-200"></i>
+                    <i class="fa-brands fa-square-instagram text-lg cursor-pointer text-primary-color hover:-translate-y-1 ease-in duration-200"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+  
+            <div class="flex flex-col items-center border-t border-primary-color dark:border-brown py-5 md:flex-row md:justify-between">
+              <p class="">Make Up template by Ahbab Sameer</p>
+              <p class="">Copyright © 2024. All rights reserved.</p>
+            </div>
+          </div>
+        </section>
+      </footer>
+</body>
+</html>
